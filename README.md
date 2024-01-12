@@ -33,18 +33,19 @@ Usage:
 
 ![EmbossedGUI](https://github.com/chitransh1998/Text-Detection/blob/main/embossedgui.png?raw=true)
 
-3. This project aims to detect text regions in images using only image processing techniques with MSER (Maximally Stable Extremal Regions) and SWT (Stroke Width Transform). 
+3. **text_detect.py**: This project aims to detect text regions in images using only image processing techniques with MSER (Maximally Stable Extremal Regions) and SWT (Stroke Width Transform). 
 
-The usage of the code is as follows:
-Basic usage is:
-`python text_detect.py -i <input-image>`
+The usage of the code is as follows  
 
-You can give output path
-`python text_detect.py -i images/scenetext01.jpg -o <output-image>`
+Basic usage is:  
+`python text_detect.py -i <input-image>`  
 
-More options available
-`python text_detect.py -i images/scenetext01.jpg -o <output-file> -d <light,dark,both,both+> -t`
-Option -i is image path, -o is output path, -d is SWT direction (default is both+), -t option chooses if Tesseract will be used. Normally Tesseract runs poorly if whole image given as input. But I use it for final decision of bounding boxes and it is not required all the time.
+You can give output path   
+`python text_detect.py -i images/scenetext01.jpg -o <output-image>`  
+
+More options available  
+`python text_detect.py -i images/scenetext01.jpg -o <output-file> -d <light,dark,both,both+> -t`  
+Option -i is image path, -o is output path, -d is SWT direction (default is both+), -t option chooses if Tesseract will be used. Normally Tesseract runs poorly if whole image given as input. But I use it for final decision of bounding boxes and it is not required all the time.  
 
 If you want to give whole image to Tesseract to see the impact of the algorithm, try this.
 `python text_detection.py -i images/scenetext01.jpg -f`
@@ -60,6 +61,8 @@ The working of the code is highlighted as follows:
 
 * The different criteria used to filter regions are described in the above image and their respective functions have also been defined.
 * Finally the pytesseract tool is used to eliminate the remaining candidate regions to finally get the results.
+
+Results on some images (Text detected in the contour):
 
 ![Result1](https://github.com/chitransh1998/Text-Detection/blob/main/detection_result.png?raw=true)
 
