@@ -47,13 +47,13 @@ More options available
 `python text_detect.py -i images/scenetext01.jpg -o <output-file> -d <light,dark,both,both+> -t`  
 Option -i is image path, -o is output path, -d is SWT direction (default is both+), -t option chooses if Tesseract will be used. Normally Tesseract runs poorly if whole image given as input. But I use it for final decision of bounding boxes and it is not required all the time.  
 
-If you want to give whole image to Tesseract to see the impact of the algorithm, try this.
+If you want to give whole image to Tesseract to see the impact of the algorithm, try this.  
 `python text_detection.py -i images/scenetext01.jpg -f`
 
-For more detail (seeing intermediate steps), the usage given below is also available.
+For more detail (seeing intermediate steps), the usage given below is also available.  
 `python text_detection_detail.py -i images/scenetext01.jpg -d both+ -t`
 
-The working of the code is highlighted as follows:
+The working of the code is highlighted as follows:  
 * Edge detection is first performed using Canny edge detector.
 * MSER regions are then found using the‘getMSERegions’ function.These regions are then colored using ‘colorRegion’ function. 
 
