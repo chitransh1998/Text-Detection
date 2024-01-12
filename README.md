@@ -1,5 +1,6 @@
 # Text-Detection
-In this project, we utilize various image processing and machine learning algorithms to detect and recognize text in documents and images. Another application area explored was embossed text detction.
+In this project, we utilize various image processing and machine learning algorithms to detect and recognize text in documents and images. Another application area explored was embossed text detction.  
+This project was carried out by me as part of the Summer Internship at IIT Delhi in the NVM Research group.
 
 ## Document Text detection
 
@@ -82,6 +83,15 @@ Results on some images (Text detected in the contour):
 
 ![Result4](https://github.com/chitransh1998/Text-Detection/blob/main/detection_results4.png?raw=true)
 
+## Applications
+Some possible areas of application for this text detection and character segmentation algorithm is:  
+
+1. Document Digitization: Use text detection to scan and digitize printed documents, making them searchable and editable.
+2. Data Entry Automation: Automate data entry tasks by extracting information from forms, invoices, and handwritten records.
+3. Language Translation: Identify and translate text in images or documents to make content accessible in different languages.
+4. License Plate Recognition (LPR): Recognize license plates on vehicles for traffic management and law enforcement.
+5. Text Extraction from Images: Extract textual information from images for indexing and search in content analysis.
+6. Handwriting Recognition: Recognize and digitize handwritten text for applications like digitizing notes and postal services.
 
 ### References
 
