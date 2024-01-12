@@ -1,7 +1,7 @@
 # Text-Detection
 In this project, we utilize various image processing and machine learning algorithms to detect and recognize text in documents and images. Another application area explored was embossed text detction.
 
-# Document Text detection
+## Document Text detection
 
 1. **Documentimage.py**: This is an integrated code for line detection and character segmentation from simple document images.
 Usage: `python documentimage.py`
@@ -26,6 +26,8 @@ The algorithm is as follows:
 
 ![Detection_result6](https://github.com/chitransh1998/Text-Detection/blob/main/detection_result6.png?raw=true)
 
+## Embossed Text Detection
+
 2. **Livegui.py**: There are three buttons in the GUI viz. Start Webcam,Stop/pause Webcam and Detect Text.
 
 Usage:
@@ -36,6 +38,8 @@ Usage:
 *	Finally rectangles are drawn around the filtered contours.
 
 ![EmbossedGUI](https://github.com/chitransh1998/Text-Detection/blob/main/embossedgui.png?raw=true)
+
+## Natural Scene Image Text Detection
 
 3. **text_detect.py**: This project aims to detect text regions in **natural scene images** using only image processing techniques with MSER (Maximally Stable Extremal Regions) and SWT (Stroke Width Transform). 
 
@@ -57,9 +61,6 @@ If you want to give whole image to Tesseract to see the impact of the algorithm,
 For more detail (seeing intermediate steps), the usage given below is also available.  
 `python text_detection_detail.py -i images/scenetext01.jpg -d both+ -t`
 
-Image description of the algorithm for Stroke Width Transform :  
-![EmbossedGUI](https://github.com/chitransh1998/Text-Detection/blob/main/SWT_algo_images.png?raw=true)
-
 
 The working of the code is highlighted as follows:  
 * Edge detection is first performed using Canny edge detector.
@@ -76,8 +77,6 @@ Image description of the algorithm for Stroke Width Transform :
 Results on some images (Text detected in the contour):
 
 ![Result1](https://github.com/chitransh1998/Text-Detection/blob/main/detection_result.png?raw=true)
-
-![Result2](https://github.com/chitransh1998/Text-Detection/blob/main/detection_result2.png?raw=true)
 
 ![Result3](https://github.com/chitransh1998/Text-Detection/blob/main/detection_results3.png?raw=true)
 
