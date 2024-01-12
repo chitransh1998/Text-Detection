@@ -84,7 +84,7 @@ Results on some images (Text detected in the contour):
 ![Result4](https://github.com/chitransh1998/Text-Detection/blob/main/detection_results4.png?raw=true)
 
 ## Applications
-Some possible areas of application for this text detection and character segmentation algorithm is:  
+Some possible areas of application for this text detection and character segmentation algorithm are:  
 
 1. Document Digitization: Use text detection to scan and digitize printed documents, making them searchable and editable.
 2. Data Entry Automation: Automate data entry tasks by extracting information from forms, invoices, and handwritten records.
