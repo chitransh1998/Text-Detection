@@ -81,3 +81,15 @@ Results on some images (Text detected in the contour):
 ![Result3](https://github.com/chitransh1998/Text-Detection/blob/main/detection_results3.png?raw=true)
 
 ![Result4](https://github.com/chitransh1998/Text-Detection/blob/main/detection_results4.png?raw=true)
+
+
+### References
+
+1.	B. Epshtein, E. Ofek, and Y. Wexler. Detecting text in natural scenes with stroke width transform. In 2010 IEEE Computer Society Conference on Computer Vision and Pattern Recognition, pages 2963–2970, June 2010.
+2.	Á. González, L. M. Bergasa, J. J. Yebes, and S. Bronte. Text location in complex images. In Proceedings of the 21st International Conference on Pattern Recognition (ICPR2012), pages 617–620, Nov 2012.
+3.	Y. Li and H. Lu. Scene text detection via stroke width. In Proceedings of the 21st International Conference on Pattern Recognition (ICPR2012), pages 681–684, Nov 2012.
+4.	Tasneem Wahdan,Gheith A. Abandah,Alisa Seyam,Alaa Awwad Tire type recognition through treads pattern recognition and dot code OCR(ISSN 1992-8424)
+5.	S.Sukprasertchai,T. Suesut, Real-time Surface Acquisition of Tire Sidewall for Reading Embossed Information
+6.	T.W.Hentzschel,P.Blenkhorn,An optical reading system for embossed Braille characters using a twin shadows approach(Journal of Microcomputer Applications(1995) 18,341-354
+7.	Github repository for natural scene image code https://github.com/azmiozgen/text-detection
+
