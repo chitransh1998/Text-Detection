@@ -22,6 +22,10 @@ The algorithm is as follows:
 
 ![DocumentGUI](https://github.com/chitransh1998/Text-Detection/blob/main/documentgui.png?raw=true)
 
+![Detection_result5](https://github.com/chitransh1998/Text-Detection/blob/main/detection_result5.png?raw=true)
+
+![Detection_result6](https://github.com/chitransh1998/Text-Detection/blob/main/detection_result6.png?raw=true)
+
 2. **Livegui.py**: There are three buttons in the GUI viz. Start Webcam,Stop/pause Webcam and Detect Text.
 
 Usage:
@@ -33,7 +37,7 @@ Usage:
 
 ![EmbossedGUI](https://github.com/chitransh1998/Text-Detection/blob/main/embossedgui.png?raw=true)
 
-3. **text_detect.py**: This project aims to detect text regions in images using only image processing techniques with MSER (Maximally Stable Extremal Regions) and SWT (Stroke Width Transform). 
+3. **text_detect.py**: This project aims to detect text regions in **natural scene images** using only image processing techniques with MSER (Maximally Stable Extremal Regions) and SWT (Stroke Width Transform). 
 
 The usage of the code is as follows  
 
@@ -53,6 +57,10 @@ If you want to give whole image to Tesseract to see the impact of the algorithm,
 For more detail (seeing intermediate steps), the usage given below is also available.  
 `python text_detection_detail.py -i images/scenetext01.jpg -d both+ -t`
 
+Image description of the algorithm for Stroke Width Transform :  
+![EmbossedGUI](https://github.com/chitransh1998/Text-Detection/blob/main/SWT_algo_images.png?raw=true)
+
+
 The working of the code is highlighted as follows:  
 * Edge detection is first performed using Canny edge detector.
 * MSER regions are then found using the‘getMSERegions’ function.These regions are then colored using ‘colorRegion’ function. 
@@ -61,6 +69,9 @@ The working of the code is highlighted as follows:
 
 * The different criteria used to filter regions are described in the above image and their respective functions have also been defined.
 * Finally the pytesseract tool is used to eliminate the remaining candidate regions to finally get the results.
+  
+Image description of the algorithm for Stroke Width Transform :    
+![EmbossedGUI](https://github.com/chitransh1998/Text-Detection/blob/main/SWT_algo_images.png?raw=true)  
 
 Results on some images (Text detected in the contour):
 
@@ -68,3 +79,6 @@ Results on some images (Text detected in the contour):
 
 ![Result2](https://github.com/chitransh1998/Text-Detection/blob/main/detection_result2.png?raw=true)
 
+![Result3](https://github.com/chitransh1998/Text-Detection/blob/main/detection_results3.png?raw=true)
+
+![Result4](https://github.com/chitransh1998/Text-Detection/blob/main/detection_results4.png?raw=true)
